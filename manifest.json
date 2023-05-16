@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "TooLazyForCaptcha",
+    "version": "1.0",
+    "description": "Redirects searches from Google to DuckDuckGo if encountering reCAPTCHA.",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "https://www.google.com/*"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
